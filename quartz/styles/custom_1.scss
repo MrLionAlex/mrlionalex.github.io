@@ -1,0 +1,214 @@
+@use "./base.scss";
+
+/* quartz/assets/custom.scss */
+
+/* ===== ЗАГОЛОВКИ ===== */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--secondary);
+  margin: 2.5rem 0 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--secondary);
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--lightgray);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin: 1.5rem 0 0.8rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--darkgray);
+  margin: 1.2rem 0 0.6rem;
+}
+
+/* ===== ТЕКСТ ===== */
+/* Жирный */
+strong, b {
+  font-weight: 700;
+  color: var(--secondary);
+  background: linear-gradient(120deg, var(--textHighlight) 0%, var(--textHighlight) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  padding: 0.1em 0;
+}
+
+/* Курсив */
+em, i {
+  font-style: italic;
+  color: var(--tertiary);
+  font-weight: 500;
+}
+
+/* Жирный + Курсив */
+strong em, em strong, b i, i b {
+  color: var(--secondary);
+  background: none;
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* ===== КОД ===== */
+/* Инлайн код */
+code:not(pre code) {
+  background: var(--highlight);
+  color: var(--secondary);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: 500;
+  border: 1px solid var(--lightgray);
+}
+
+/* Блоки кода */
+pre {
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ===== ССЫЛКИ ===== */
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--secondary);
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: var(--tertiary);
+  border-bottom: 1px solid var(--tertiary);
+}
+
+/* ===== СПИСКИ ===== */
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+/* Маркеры списков */
+ul li::marker {
+  color: var(--secondary);
+}
+
+ol li::marker {
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+/* ===== ЦИТАТЫ ===== */
+blockquote {
+  border-left: 4px solid var(--secondary);
+  background: var(--highlight);
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+}
+
+blockquote p {
+  margin: 0;
+  color: var(--darkgray);
+}
+
+/* ===== ТАБЛИЦЫ ===== */
+table {
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  width: 100%;
+  background: var(--light);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th {
+  background: var(--secondary);
+  color: white;
+  font-weight: 600;
+  padding: 0.8rem 1rem;
+  text-align: left;
+}
+
+td {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+tr:hover {
+  background: var(--highlight);
+}
+
+/* ===== РАЗДЕЛИТЕЛИ ===== */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, var(--secondary), var(--tertiary));
+  margin: 2rem 0;
+  border-radius: 2px;
+}
+
+/* ===== КАСТОМНЫЕ КЛАССЫ ДЛЯ CTO-КОНТЕНТА ===== */
+.important {
+  background: var(--textHighlight);
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--secondary);
+  margin: 1rem 0;
+}
+
+.definition {
+  background: var(--highlight);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  margin: 1rem 0;
+}
+
+.warning {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  color: #856404;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* ===== АДАПТИВНОСТЬ ===== */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.4rem; }
+  
+  pre {
+    padding: 1rem;
+    margin: 1rem -1rem;
+    border-radius: 0;
+  }
+}
+
+// put your custom CSS here!
