@@ -1,14 +1,14 @@
 ---
-title: Заглавная страница
+title: Welcome
 updated: 2025-11-18 14:12
 aliases:
   - Начало
 description:
 type: SitePage
 category:
-  - software development
+  - stream
+  - site
 tags:
-  - техлид
 comments: true
 github:
 draft: false
