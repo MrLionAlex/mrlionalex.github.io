@@ -1,1 +1,246 @@
 @use "./base.scss";
+
+/* ---------- Цвета статусов (Nord) ---------- */
+
+.status-completed { background: var(--secondary); }
+.status-playing   { background: var(--tertiary); color: #161618; }
+.status-dropped   { background: var(--gray); color: #161618; }
+
+/* ---------- Витрина ---------- */
+
+body[data-slug="games/index"] .page-listing {
+    display: none;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform .15s ease;
+    line-height: 0;
+    padding: 0;
+}
+
+.game-card:hover {
+    transform: scale(1.02);
+}
+
+.game-cover {
+    position: relative;
+    line-height: 0;
+}
+
+.game-cover img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: var(--lightgray);
+}
+
+/* Звёзды на обложке — правый верхний угол */
+.game-cover .rating {
+    position: absolute;
+    top: .35rem;
+    right: .35rem;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    padding: .1em .4em;
+    border-radius: 4px;
+    font-size: .8rem;
+    line-height: 1.3;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+/* Бейдж статуса на обложке — левый верхний угол */
+.status-badge {
+    position: absolute;
+    top: .35rem;
+    left: .35rem;
+    padding: .1em .45em;
+    border-radius: 4px;
+    font-size: .7rem;
+    line-height: 1.3;
+    font-weight: 600;
+    letter-spacing: .02em;
+    white-space: nowrap;
+    pointer-events: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* Нижняя часть карточки */
+.game-card-body {
+    padding: .5rem .7rem .6rem;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.game-card-body h3 {
+    margin: 0;
+    font-size: .95rem;
+    line-height: 1.2;
+}
+
+/* ---------- Платформы (общий блок для витрины и саммари) ---------- */
+
+.game-platform {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .25rem;
+    align-items: center;
+    margin: 0;
+    font-size: .85rem;
+    line-height: 1.2;
+    color: var(--darkgray);
+    justify-content: flex-end;   /* по умолчанию справа, на витрине */
+}
+
+/* ---------- Иконки ---------- */
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5em;
+    min-width: 1.5em;
+    vertical-align: middle;
+    background-color: var(--secondary);
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.badge-pc         { -webkit-mask-image: url("/static/icons/pc1.svg"); mask-image: url("/static/icons/pc1.svg"); }
+.badge-kb         { -webkit-mask-image: url("/static/icons/kb-white.svg"); mask-image: url("/static/icons/kb-white.svg"); }
+.badge-mouse      { -webkit-mask-image: url("/static/icons/mouse.svg"); mask-image: url("/static/icons/mouse.svg"); }
+.badge-controller { -webkit-mask-image: url("/static/icons/controller.svg"); mask-image: url("/static/icons/controller.svg"); }
+.badge-switch     { -webkit-mask-image: url("/static/icons/switch.svg"); mask-image: url("/static/icons/switch.svg"); }
+.badge-pad        { -webkit-mask-image: url("/static/icons/pad.svg"); mask-image: url("/static/icons/pad.svg"); }
+
+.badge-text {
+    width: auto;
+    padding: 0 .35em;
+    font-size: .7rem;
+    line-height: 1.2;
+    color: var(--darkgray);
+    background: var(--lightgray);
+    border-radius: 4px;
+    -webkit-mask-image: none;
+    mask-image: none;
+}
+
+/* ---------- Саммари на странице игры ---------- */
+
+.game-summary {
+    display: flex;
+    gap: 1.2rem;
+    align-items: stretch;
+    padding: 1rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 5px;
+    margin: 1rem 0 1.5rem;
+}
+
+.game-summary-cover {
+    flex-shrink: 0;
+    width: 140px;
+    align-self: stretch;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.game-summary-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    background: var(--lightgray);
+}
+
+.game-summary-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    justify-content: center;
+}
+
+.game-summary-facts {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 1rem;
+    row-gap: .4rem;
+    margin: 0;
+}
+
+.game-summary-facts dt {
+    color: var(--darkgray);
+    font-size: .9rem;
+    margin: 0;
+}
+
+.game-summary-facts dd {
+    margin: 0;
+    font-size: .95rem;
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+    gap: .35rem;
+}
+
+.game-summary-rating-num {
+    color: var(--darkgray);
+    font-size: .85rem;
+}
+
+/* В саммари платформы прижаты влево, а не вправо */
+.game-summary .game-platform {
+    justify-content: flex-start;
+}
+
+/* Inline-бейдж статуса в саммари */
+.status-badge-inline {
+    display: inline-block;
+    align-self: flex-start;
+    padding: .15em .55em;
+    border-radius: 4px;
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* ---------- Адаптив ---------- */
+
+@media (max-width: 600px) {
+    .game-summary {
+        flex-direction: column;
+    }
+    .game-summary-cover {
+        width: 100%;
+        max-width: 200px;
+    }
+}

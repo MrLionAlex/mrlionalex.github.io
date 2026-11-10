@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>~/Alex/...</title>
+      <link>https://mrlionalex.github.io</link>
+      <description>Последние 10 заметок on ~/Alex/...</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Игры</title>
+    <link>https://mrlionalex.github.io/games/</link>
+    <guid>https://mrlionalex.github.io/games/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 10 Nov 2026 00:15:50 GMT</pubDate>
+  </item><item>
+    <title>ReAnimal</title>
+    <link>https://mrlionalex.github.io/Data/ReAnimal</link>
+    <guid>https://mrlionalex.github.io/Data/ReAnimal</guid>
+    <description><![CDATA[ Описание Создатели Little Nightmares™ I и II приготовили для вас еще более мрачную и жуткую историю. ]]></description>
+    <pubDate>Mon, 09 Nov 2026 23:46:00 GMT</pubDate>
+  </item><item>
+    <title>Hail to the Rainbow</title>
+    <link>https://mrlionalex.github.io/games/Hail-to-the-Rainbow</link>
+    <guid>https://mrlionalex.github.io/games/Hail-to-the-Rainbow</guid>
+    <description><![CDATA[ Описание История одинокого юноши по имени Игнат, выживающего в опасном и мрачном мире постапокалиптичного киберпанка. ]]></description>
+    <pubDate>Mon, 09 Nov 2026 22:46:00 GMT</pubDate>
+  </item><item>
+    <title>Example Title</title>
+    <link>https://mrlionalex.github.io/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/note</link>
+    <guid>https://mrlionalex.github.io/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/note</guid>
+    <description><![CDATA[ h1 h2 h3 h4 h5 h6 Outerlink InnerLink test test q w e a s d q w e class CodeBlock() { return true; } написал цитату и рад Title Contents Title Contents Title Contents 1 2 3 ReAnimal 11 12 13 Happy Game 21 22 23 Silent Hill 2 Remake 31 32 33 . ]]></description>
+    <pubDate>Thu, 19 Feb 2026 13:04:41 GMT</pubDate>
+  </item><item>
+    <title>Welcome</title>
+    <link>https://mrlionalex.github.io/</link>
+    <guid>https://mrlionalex.github.io/</guid>
+    <description><![CDATA[  h1 h2 h3 h4 h5 h6 Outerlink InnerLink test test q w e a s d q w e class CodeBlock() { return true; }. ]]></description>
+    <pubDate>Tue, 18 Nov 2025 11:12:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

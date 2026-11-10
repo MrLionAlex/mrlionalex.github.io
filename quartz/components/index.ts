@@ -8,6 +8,8 @@ import ReaderMode from "./ReaderMode"
 import Head from "./Head"
 import PageTitle from "./PageTitle"
 import ContentMeta from "./ContentMeta"
+import GameHeader from "./GameHeader"
+import GameGrid from "./GameGrid"
 import Spacer from "./Spacer"
 import TableOfContents from "./TableOfContents"
 import Explorer from "./Explorer"
@@ -34,6 +36,8 @@ export {
   Head,
   PageTitle,
   ContentMeta,
+  GameHeader,
+  GameGrid,
   Spacer,
   TableOfContents,
   Explorer,
