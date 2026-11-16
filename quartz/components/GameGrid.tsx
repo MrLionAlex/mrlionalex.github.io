@@ -12,6 +12,7 @@ const ICON_KEYS = new Set([
   "controller",
   "switch",
   "pad",
+  "twitch"
 ])
 
 // Поддерживаем и русские, и английские названия статусов
@@ -93,7 +94,7 @@ const GameGrid: QuartzComponent = ({ allFiles, fileData }: QuartzComponentProps)
               <span class={`status-badge ${status.cls}`}>{status.label}</span>
             )}
             {rating > 0 && (
-              <span class="rating">{"★".repeat(Math.round(rating / 2))}</span>
+              <span class="rating">{"★".repeat(rating)}</span>
             )}
             </div>
             <div class="game-card-body">
