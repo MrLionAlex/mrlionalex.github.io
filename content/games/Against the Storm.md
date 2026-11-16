@@ -23,7 +23,10 @@ tags:
   - colony_sim
 status: Играю
 rating: "7"
-platform: pc, kb, mouse
+platform:
+  - pc
+  - kb
+  - mouse
 cover: /static/games/covers/1336490.jpg
 ---
 ## Описание

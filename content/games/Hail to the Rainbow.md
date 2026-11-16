@@ -16,7 +16,10 @@ genre:
 tags:
 status: Пройдено
 rating: "6"
-platform: pc, kb, mouse
+platform:
+  - pc
+  - kb
+  - mouse
 cover: /static/games/covers/1699230.jpg
 ---
 ## Описание

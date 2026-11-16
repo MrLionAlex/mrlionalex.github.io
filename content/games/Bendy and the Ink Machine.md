@@ -26,7 +26,10 @@ tags:
   - mystery
 status: Пройдено
 rating: "5"
-platform: pc, kb, mouse
+platform:
+  - pc
+  - kb
+  - mouse
 cover: /static/games/covers/622650.jpg
 ---
 ## Описание

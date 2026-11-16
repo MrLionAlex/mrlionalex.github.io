@@ -26,7 +26,9 @@ tags:
   - funny
 status: Пройдено
 rating: "4"
-platform: pc, mouse
+platform:
+  - pc
+  - mouse
 cover: /static/games/covers/1206060.jpg
 ---
 ## Описание

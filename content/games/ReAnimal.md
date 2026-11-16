@@ -16,7 +16,10 @@ genre:
 tags:
 status: Пройдено
 rating: "5"
-platform: pc, controller, twitch
+platform:
+  - pc
+  - controller
+  - twitch
 cover: /static/games/covers/2129530.jpg
 ---
 ## Описание
