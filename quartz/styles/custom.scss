@@ -1,6 +1,20 @@
 @use "./base.scss";
 
-/* ---------- Цвета статусов (Nord) ---------- */
+/* ---------- Заголовки ---------- */
+h1, h2 {color: var(--tertiary)}
+
+/* ---------- Aurora ---------- */
+:root {
+    // Nord Aurora (Northern Lights) пять цветов
+    --aurora-red: #BF616A;      // Nord11
+    --aurora-orange: #D08770;   // Nord12
+    --aurora-yellow: #EBCB8B;   // Nord13
+    --aurora-green: #A3BE8C;    // Nord14
+    --aurora-purple: #B48EAD;   // Nord15
+}
+
+
+/* ---------- Статусы ---------- */
 
 .status-completed { background: var(--secondary); }
 .status-playing   { background: var(--tertiary); color: #161618; }
@@ -30,6 +44,7 @@ body[data-slug="games/index"] .page-listing {
     transition: transform .15s ease;
     line-height: 0;
     padding: 0;
+    height: 100%;
 }
 
 .game-card:hover {
@@ -43,7 +58,7 @@ body[data-slug="games/index"] .page-listing {
 
 .game-cover img {
     width: 100%;
-    aspect-ratio: 3/4;
+    // aspect-ratio: 3/4;
     object-fit: cover;
     display: block;
     margin: 0;
@@ -90,12 +105,18 @@ body[data-slug="games/index"] .page-listing {
     display: flex;
     flex-direction: column;
     gap: .5rem;
+    flex: 1;
 }
 
 .game-card-body h3 {
     margin: 0;
     font-size: .95rem;
     line-height: 1.2;
+    min-height: 2.5em;         /* резерв под 2 строки */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;     /* длинные названия обрезаем до 2 строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 /* ---------- Платформы (общий блок для витрины и саммари) ---------- */
@@ -132,11 +153,17 @@ body[data-slug="games/index"] .page-listing {
 
 .badge-pc         { -webkit-mask-image: url("/static/icons/pc1.svg"); mask-image: url("/static/icons/pc1.svg"); }
 .badge-kb         { -webkit-mask-image: url("/static/icons/kb-white.svg"); mask-image: url("/static/icons/kb-white.svg"); }
-.badge-mouse      { -webkit-mask-image: url("/static/icons/mouse.svg"); mask-image: url("/static/icons/mouse.svg"); }
+.badge-mouse      { -webkit-mask-image: url("/static/icons/mouse.svg"); mask-image: url("/static/icons/mouse.svg");
+    height: 1.3em;
+}
 .badge-controller { -webkit-mask-image: url("/static/icons/controller.svg"); mask-image: url("/static/icons/controller.svg"); }
-.badge-switch     { -webkit-mask-image: url("/static/icons/switch.svg"); mask-image: url("/static/icons/switch.svg"); }
+.badge-switch     { -webkit-mask-image: url("/static/icons/switch.svg"); mask-image: url("/static/icons/switch.svg");
+    background-color: var(--aurora-red);
+}
 .badge-pad        { -webkit-mask-image: url("/static/icons/pad.svg"); mask-image: url("/static/icons/pad.svg"); }
-.badge-twitch     { -webkit-mask-image: url("/static/icons/twitch.svg"); mask-image: url("/static/icons/twitch.svg"); }
+.badge-twitch     { -webkit-mask-image: url("/static/icons/twitch.svg"); mask-image: url("/static/icons/twitch.svg");
+    background-color: var(--aurora-purple);
+}
 
 .badge-text {
     width: auto;
@@ -197,15 +224,15 @@ body[data-slug="games/index"] .page-listing {
 }
 
 .game-summary-facts dt {
-    color: var(--darkgray);
-    font-size: .9rem;
+    color: var(--dark);
+    font-size: .95rem;
     margin: 0;
 }
 
 .game-summary-facts dd {
     margin: 0;
     font-size: .95rem;
-    color: var(--dark);
+    color: var(--darkgray);
     display: flex;
     align-items: center;
     gap: .35rem;
@@ -225,7 +252,7 @@ body[data-slug="games/index"] .page-listing {
 .status-badge-inline {
     display: inline-block;
     align-self: flex-start;
-    padding: .15em .55em;
+    padding: .25em .55em;
     border-radius: 4px;
     font-size: .75rem;
     font-weight: 600;
@@ -233,6 +260,11 @@ body[data-slug="games/index"] .page-listing {
     text-transform: uppercase;
     color: #fff;
 }
+
+/* ---------- Оценки ---------- */
+.review-positive { color: var(--aurora-green); }
+.review-negative { color: var(--aurora-red); }
+.review-sep      { color: var(--lightgray); margin: 0 .35em; }
 
 /* ---------- Адаптив ---------- */
 

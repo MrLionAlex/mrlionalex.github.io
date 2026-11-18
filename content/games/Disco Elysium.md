@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 23:11
 updated:
 type: Game
@@ -15,15 +15,14 @@ release_date: 15 окт. 2019 г.
 genre: RPG
 tags:
   - rpg
-  - story_rich
   - choices_matter
   - detective
   - isometric
   - atmospheric
-  - singleplayer
-  - point_&_click
+  - point_and_click
   - crpg
   - noir
+  - story
 status:
 rating:
 platform:

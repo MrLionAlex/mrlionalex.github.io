@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 22:34
 updated:
 type: Game
@@ -14,13 +14,9 @@ negative: 313
 release_date: 10 дек. 2009 г.
 genre: Adventure, Casual, Indie
 tags:
-  - point_&_click
-  - casual
-  - 2d
+  - point_and_click
   - exploration
-  - surreal
   - space
-  - stylized
   - puzzle
   - funny
   - psychedelic

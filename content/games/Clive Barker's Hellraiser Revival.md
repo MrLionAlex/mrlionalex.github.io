@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 23:37
 updated:
 type: Game
@@ -11,12 +11,16 @@ playtime: 14.6
 last_played: 2026-10-10
 positive: 0
 negative: 0
-release_date: 8 окт. 2026 г.
-genre: 
+release_date: 2026-10-08
+genre:
 tags:
 status:
-rating:
+rating: 7
 platform:
+  - pc
+  - kb
+  - mouse
+  - twitch
 cover: /static/games/covers/1551980.jpg
 ---
 ## Описание
@@ -24,4 +28,3 @@ cover: /static/games/covers/1551980.jpg
 
 ## Отзыв
 
-## Ссылки

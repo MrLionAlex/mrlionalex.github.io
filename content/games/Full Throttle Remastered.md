@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 22:41
 updated:
 type: Game
@@ -15,15 +15,11 @@ release_date:
 genre: Adventure
 tags:
   - adventure
-  - point_&_click
+  - point_and_click
   - comedy
-  - classic
-  - singleplayer
-  - funny
-  - story_rich
-  - great_soundtrack
-  - remake
-  - 1990's
+  - story
+  - soundtrack
+  - 90s
 status:
 rating:
 platform:

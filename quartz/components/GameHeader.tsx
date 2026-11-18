@@ -1,6 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-const ICON_KEYS = new Set(["pc", "kb", "mouse", "controller", "switch", "pad"])
+const ICON_KEYS = new Set(["pc", "kb", "mouse", "controller", "switch", "pad", "twitch"])
 
 const STATUS_LABEL: Record<string, string> = {
     "пройдено": "Пройдено",
@@ -56,9 +56,13 @@ const GameHeader: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
         const fm = fileData.frontmatter ?? {}
         const title = String(fm.title ?? "")
         const cover = String(fm.cover ?? "")
+        const genre = String(fm.genre ?? "")
         const rating = Number(fm.rating) || 0
-        const playTime = fm.play_time ? String(fm.play_time) : null
-        const lastPlay = formatDate(fm.last_play)
+        const positive = Number(fm.positive) || 0
+        const negative = Number(fm.negative) || 0
+        const releaseDate = formatDate(fm.release_date)
+        const lastPlay = formatDate(fm.last_played)
+        const playTime = fm.playtime ? String(fm.playtime)+" ч." : null
         const status = normalizeStatus(fm.status)
 
         return (
@@ -73,13 +77,25 @@ const GameHeader: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
                         <span class={`status-badge-inline ${status.cls}`}>{status.label}</span>
                     )}
                     <dl class="game-summary-facts">
+                        {releaseDate && (<><dt>Дата выхода</dt><dd>{releaseDate}</dd></>)}
+                        {genre && (<><dt>Жанр</dt><dd>{genre}</dd></>)}
+                        {(positive > 0 || negative > 0) && (
+                            <>
+                            <dt>Отзывы Steam</dt>
+                            <dd>
+                            <span class="review-positive">{positive.toLocaleString("ru-RU")}</span>
+                            <span class="review-sep">/</span>
+                            <span class="review-negative">{negative.toLocaleString("ru-RU")}</span>
+                            </dd>
+                            </>
+                        )}
                         {lastPlay && (<><dt>Последний запуск</dt><dd>{lastPlay}</dd></>)}
-                        {playTime && (<><dt>Время</dt><dd>{playTime}</dd></>)}
+                        {playTime && (<><dt>Общее время</dt><dd>{playTime}</dd></>)}
                         {rating > 0 && (
                             <>
                             <dt>Оценка</dt>
                             <dd>
-                            <span class="rating">{"★".repeat(Math.round(rating / 2))}</span>
+                            <span class="rating">{"★".repeat(rating)}</span>
                             <span class="game-summary-rating-num"> ({rating}/10)</span>
                             </dd>
                             </>

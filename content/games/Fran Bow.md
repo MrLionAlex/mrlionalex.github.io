@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 22:55
 updated:
 type: Game
@@ -14,15 +14,13 @@ negative: 532
 release_date: 27 авг. 2015 г.
 genre: Adventure, Indie
 tags:
-  - psychological_horror
-  - point_&_click
-  - story_rich
+  - point_and_click
+  - story
   - puzzle
   - horror
   - adventure
   - indie
   - dark
-  - singleplayer
   - atmospheric
 status:
 rating:

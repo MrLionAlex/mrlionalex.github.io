@@ -75,7 +75,13 @@ const GameGrid: QuartzComponent = ({ allFiles, fileData }: QuartzComponentProps)
     const games = allFiles
     .filter(f => f.slug?.startsWith("games/") && f.slug !== "games/index")
     .filter(f => normalizeStatus(f.frontmatter?.status) !== null)
-    .sort((a, b) => (Number(b.frontmatter?.rating) || 0) - (Number(a.frontmatter?.rating) || 0))
+    .sort((a, b) => {
+      const da = Date.parse(String(a.frontmatter?.last_played ?? ""))
+      const db = Date.parse(String(b.frontmatter?.last_played ?? ""))
+      const va = Number.isNaN(da) ? -Infinity : da
+      const vb = Number.isNaN(db) ? -Infinity : db
+      return vb - va
+    })
 
     if (games.length === 0) return null
 
@@ -88,19 +94,19 @@ const GameGrid: QuartzComponent = ({ allFiles, fileData }: QuartzComponentProps)
 
           return (
             <a class="game-card" href={resolveRelative(fileData.slug!, g.slug!)}>
-            <div class="game-cover">
-            <img src={String(fm.cover ?? "")} alt={String(fm.title ?? "")} loading="lazy" />
-            {status && (
-              <span class={`status-badge ${status.cls}`}>{status.label}</span>
-            )}
-            {rating > 0 && (
-              <span class="rating">{"★".repeat(rating)}</span>
-            )}
-            </div>
-            <div class="game-card-body">
-            <h3>{String(fm.title ?? "")}</h3>
-            {renderPlatform(fm.platform)}
-            </div>
+              <div class="game-cover">
+                <img src={String(fm.cover ?? "")} alt={String(fm.title ?? "")} loading="lazy" />
+                {status && (
+                  <span class={`status-badge ${status.cls}`}>{status.label}</span>
+                )}
+                {rating > 0 && (
+                  <span class="rating">{"★".repeat(rating)}</span>
+                )}
+                </div>
+                <div class="game-card-body">
+                <h3>{String(fm.title ?? "")}</h3>
+                {renderPlatform(fm.platform)}
+              </div>
             </a>
           )
         })}

@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 23:17
 updated:
 type: Game
@@ -16,14 +16,9 @@ genre: Action, Adventure, Simulation
 tags:
   - open_world
   - simulation
-  - singleplayer
   - first-person
-  - realistic
   - action
-  - multiple_endings
   - 1980s
-  - automobile_sim
-  - story_rich
 status:
 rating:
 platform:

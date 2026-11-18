@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 23:28
 updated:
 type: Game
@@ -14,16 +14,12 @@ negative: 4351
 release_date: 19 окт. 2021 г.
 genre: Adventure, Indie, Strategy
 tags:
-  - card_battler
   - card_game
-  - story_rich
-  - deckbuilding
   - horror
-  - rogue-like
   - dark
   - puzzle
   - rogue-lite
-  - strategy
+  - story
 status:
 rating:
 platform:

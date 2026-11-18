@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 23:38
 updated:
 type: Game
@@ -17,13 +17,11 @@ tags:
   - souls-like
   - dark_fantasy
   - action
-  - singleplayer
-  - story_rich
   - action_rpg
   - steampunk
   - third_person
-  - exploration
   - dark
+  - story
 status:
 rating:
 platform:

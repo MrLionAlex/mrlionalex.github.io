@@ -11,8 +11,10 @@ playtime: 207.4
 last_played: 2025-04-05
 positive: 31908
 negative: 1784
-release_date: 8 дек. 2023 г.
-genre: Simulation, Strategy
+release_date: 2023-12-08
+genre:
+  - Simulation
+  - Strategy
 tags:
   - strategy
   - city_builder
@@ -22,7 +24,7 @@ tags:
   - resource_management
   - colony_sim
 status: Играю
-rating: "7"
+rating: 7
 platform:
   - pc
   - kb

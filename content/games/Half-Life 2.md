@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 22:29
 updated:
 type: Game
@@ -11,7 +11,7 @@ playtime: 8
 last_played: 2015-06-23
 positive: 200467
 negative: 4726
-release_date: 16 ноя. 2004 г.
+release_date: 2004-11-16
 genre: Action
 tags:
   - fps

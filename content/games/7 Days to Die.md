@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 22:45
 updated:
 type: Game
@@ -24,8 +24,8 @@ tags:
   - online_co-op
   - voxel
   - building
-status:
-rating:
+status: Пройдено
+rating: "6"
 platform:
 cover: /static/games/covers/251570.jpg
 ---

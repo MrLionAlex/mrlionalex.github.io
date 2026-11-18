@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 23:44
 updated:
 type: Game
@@ -14,15 +14,11 @@ negative: 76
 release_date: 31 мар. 2024 г.
 genre: Adventure, Casual, Indie
 tags:
-  - online_co-op
   - hidden_object
-  - puzzle
-  - psychological_horror
   - horror
   - casual
   - walking_simulator
   - multiplayer
-  - singleplayer
   - co-op
 status:
 rating:

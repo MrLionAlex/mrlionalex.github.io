@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 22:41
 updated:
 type: Game
@@ -14,7 +14,6 @@ negative: 3506
 release_date: 23 окт. 2012 г.
 genre: Action, Indie
 tags:
-  - great_soundtrack
   - violent
   - action
   - indie
@@ -22,8 +21,8 @@ tags:
   - top-down
   - gore
   - 1980s
-  - fast-paced
   - retro
+  - soundtrack
 status:
 rating:
 platform:

@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 23:22
 updated:
 type: Game
@@ -32,5 +32,3 @@ cover: /static/games/covers/883710.jpg
 ## Описание
 
 ## Отзыв
-
-## Ссылки

@@ -11,25 +11,24 @@ playtime: 5
 last_played: 2026-01-23
 positive: 24164
 negative: 2588
-release_date: 27 апр. 2017 г.
-genre: Action, Adventure, Indie, Strategy
+release_date: 2017-04-27
+genre:
+  - Action
+  - Adventure
+  - Indie
 tags:
   - horror
-  - first-person
-  - singleplayer
-  - puzzle
-  - cartoony
   - cartoon
-  - survival_horror
   - dark
   - indie
-  - mystery
+  - atmospheric
 status: Пройдено
-rating: "5"
+rating: 4
 platform:
   - pc
   - kb
   - mouse
+  - twitch
 cover: /static/games/covers/622650.jpg
 ---
 ## Описание

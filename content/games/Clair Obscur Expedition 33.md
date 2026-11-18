@@ -1,4 +1,4 @@
-﻿---
+---
 created: 2026-11-15 23:40
 updated:
 type: Game
@@ -14,16 +14,13 @@ negative: 9199
 release_date: 24 апр. 2025 г.
 genre: Action, RPG
 tags:
-  - turn-based_combat
-  - story_rich
   - fantasy
-  - great_soundtrack
-  - rpg
-  - singleplayer
   - jrpg
   - exploration
   - lore-rich
   - adventure
+  - story
+  - soundtrack
 status:
 rating:
 platform:
