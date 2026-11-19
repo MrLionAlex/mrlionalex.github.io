@@ -6,6 +6,18 @@
       <description>Последние 10 заметок on ~/Alex/...</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Underkeep</title>
+    <link>https://starscreator.github.io/games/Underkeep</link>
+    <guid>https://starscreator.github.io/games/Underkeep</guid>
+    <description><![CDATA[ Описание Исследуйте опасный фэнтезийный мир в этой ролевой игре в жанре «dungeon-crawler» с тактическими пошаговыми боями. ]]></description>
+    <pubDate>Thu, 19 Nov 2026 19:45:00 GMT</pubDate>
+  </item><item>
+    <title>Probably Stolen</title>
+    <link>https://starscreator.github.io/games/Probably-Stolen</link>
+    <guid>https://starscreator.github.io/games/Probably-Stolen</guid>
+    <description><![CDATA[ Описание В этом симуляторе магазина на мрачной киберпанковой космической станции вы будете создавать полезные вещи из хлама, торговать (легально и не очень) товарами сомнительного происхождения и разбираться в отношениях между фракциями. ]]></description>
+    <pubDate>Sun, 15 Nov 2026 20:55:00 GMT</pubDate>
+  </item><item>
     <title>A Game About Digging A Hole™</title>
     <link>https://starscreator.github.io/games/A-Game-About-Digging-A-Hole%E2%84%A2</link>
     <guid>https://starscreator.github.io/games/A-Game-About-Digging-A-Hole%E2%84%A2</guid>
@@ -36,6 +48,12 @@
     <description><![CDATA[ Описание Создатели Little Nightmares™ I и II приготовили для вас еще более мрачную и жуткую историю. ]]></description>
     <pubDate>Sun, 15 Nov 2026 20:43:00 GMT</pubDate>
   </item><item>
+    <title>Lies of P</title>
+    <link>https://starscreator.github.io/games/Lies-of-P</link>
+    <guid>https://starscreator.github.io/games/Lies-of-P</guid>
+    <description><![CDATA[ Описание Lies of P — захватывающая игра в жанре soulslike, в которой знакомый сюжет сказки «Пиноккио» развернется в мрачных, но элегантных декорациях Прекрасной эпохи. ]]></description>
+    <pubDate>Sun, 15 Nov 2026 20:38:00 GMT</pubDate>
+  </item><item>
     <title>Against the Storm</title>
     <link>https://starscreator.github.io/games/Against-the-Storm</link>
     <guid>https://starscreator.github.io/games/Against-the-Storm</guid>
@@ -47,24 +65,6 @@
     <guid>https://starscreator.github.io/games/Happy-Game</guid>
     <description><![CDATA[ Описание Маленький мальчик засыпает и попадает в ужасный кошмар. ]]></description>
     <pubDate>Sun, 15 Nov 2026 20:30:00 GMT</pubDate>
-  </item><item>
-    <title>Bendy and the Ink Machine</title>
-    <link>https://starscreator.github.io/games/Bendy-and-the-Ink-Machine</link>
-    <guid>https://starscreator.github.io/games/Bendy-and-the-Ink-Machine</guid>
-    <description><![CDATA[ Описание Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons. ]]></description>
-    <pubDate>Sun, 15 Nov 2026 20:11:00 GMT</pubDate>
-  </item><item>
-    <title>Darkwood</title>
-    <link>https://starscreator.github.io/games/Darkwood</link>
-    <guid>https://starscreator.github.io/games/Darkwood</guid>
-    <description><![CDATA[ Описание Darkwood — это новый взгляд на хоррор с выживанием. ]]></description>
-    <pubDate>Sun, 15 Nov 2026 19:48:00 GMT</pubDate>
-  </item><item>
-    <title>How to Survive</title>
-    <link>https://starscreator.github.io/games/How-to-Survive</link>
-    <guid>https://starscreator.github.io/games/How-to-Survive</guid>
-    <description><![CDATA[ Описание Вы оказываетесь на заброшенном острове. ]]></description>
-    <pubDate>Sun, 15 Nov 2026 19:45:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

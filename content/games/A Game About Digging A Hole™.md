@@ -34,7 +34,7 @@ cover: /static/games/covers/3244220.jpg
 Минималистичная игра о копании ямы в саду недавно приобретенного дома. Собирайте ресурсы, продавайте их, улучшайте свое оборудование и раскройте таинственную тайну. Стоит всего одну чашку кофе!
 ## Отзыв
 
-<iframe src="https://clips.twitch.tv/embed?clip=EvilExpensiveRhinocerosTinyFace-gEruNy7_JZ6jqc-A&parent=localhost" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<iframe src="https://clips.twitch.tv/embed?clip=EvilExpensiveRhinocerosTinyFace-gEruNy7_JZ6jqc-A&parent=https://mrlionalex.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
 >[!quote] *Скуф долбит дыру...*
 
