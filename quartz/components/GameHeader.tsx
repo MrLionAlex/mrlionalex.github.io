@@ -1,6 +1,15 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-const ICON_KEYS = new Set(["pc", "kb", "mouse", "controller", "switch", "pad", "twitch"])
+const ICON_KEYS = new Set([
+    "pc",
+    "fullpc",
+    "kb",
+    "tv",
+    "mouse",
+    "controller",
+    "switch",
+    "pad",
+    "twitch"])
 
 const STATUS_LABEL: Record<string, string> = {
     "пройдено": "Пройдено",

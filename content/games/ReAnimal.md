@@ -27,7 +27,7 @@ tags:
 status: Пройдено
 rating: 6
 platform:
-  - pc
+  - fullpc
   - controller
   - twitch
 cover: /static/games/covers/2129530.jpg

@@ -13125,7 +13125,17 @@ var ContentMeta_default = /* @__PURE__ */ __name(((opts) => {
 }), "default");
 
 // quartz/components/GameHeader.tsx
-var ICON_KEYS = /* @__PURE__ */ new Set(["pc", "kb", "mouse", "controller", "switch", "pad", "twitch"]);
+var ICON_KEYS = /* @__PURE__ */ new Set([
+  "pc",
+  "fullpc",
+  "kb",
+  "tv",
+  "mouse",
+  "controller",
+  "switch",
+  "pad",
+  "twitch"
+]);
 var STATUS_LABEL = {
   "\u043F\u0440\u043E\u0439\u0434\u0435\u043D\u043E": "\u041F\u0440\u043E\u0439\u0434\u0435\u043D\u043E",
   "\u0438\u0433\u0440\u0430\u044E": "\u0418\u0433\u0440\u0430\u044E",
@@ -13185,13 +13195,15 @@ var GameHeader_default = /* @__PURE__ */ __name((() => GameHeader), "default");
 
 // quartz/components/GameGrid.tsx
 var ICON_KEYS2 = /* @__PURE__ */ new Set([
+  "fullpc",
   "pc",
   "kb",
   "mouse",
   "controller",
   "switch",
   "pad",
-  "twitch"
+  "twitch",
+  "tv"
 ]);
 var STATUS_LABEL2 = {
   "\u043F\u0440\u043E\u0439\u0434\u0435\u043D\u043E": "\u041F\u0440\u043E\u0439\u0434\u0435\u043D\u043E",
@@ -13673,7 +13685,7 @@ var Footer_default = /* @__PURE__ */ __name(((opts) => {
   const Footer = /* @__PURE__ */ __name(({ displayClass, cfg }) => {
     const year = (/* @__PURE__ */ new Date()).getFullYear();
     const links = opts?.links ?? [];
-    return /* @__PURE__ */ React.createElement("footer", { class: `${displayClass ?? ""}` }, /* @__PURE__ */ React.createElement("ul", null, Object.entries(links).map(([text, link]) => /* @__PURE__ */ React.createElement("li", null, /* @__PURE__ */ React.createElement("a", { href: link }, text)))));
+    return /* @__PURE__ */ React.createElement("footer", { class: `${displayClass ?? ""}` }, /* @__PURE__ */ React.createElement("ul", null, Object.entries(links).map(([text, link]) => /* @__PURE__ */ React.createElement("li", null, /* @__PURE__ */ React.createElement("a", { href: link, text }, /* @__PURE__ */ React.createElement("span", { class: `badge badge-${text}` }))))));
   }, "Footer");
   Footer.css = footer_default;
   return Footer;
@@ -13816,7 +13828,9 @@ var sharedPageComponents = {
   afterBody: [],
   footer: Footer_default({
     links: {
-      GitHub: "https://github.com/mrlionalex"
+      twitch: "https://www.twitch.tv/mrlionalex",
+      telegram: "https://t.me/MrLionAlex",
+      github: "https://github.com/starscreator"
     }
   })
 };
@@ -14874,7 +14888,7 @@ var config = {
       provider: "plausible"
     },
     locale: "ru-RU",
-    baseUrl: "starscreator.github.io",
+    baseUrl: "mrlionalex.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {

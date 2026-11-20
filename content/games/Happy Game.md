@@ -26,7 +26,7 @@ tags:
 status: Пройдено
 rating: "3"
 platform:
-  - pc
+  - fullpc
   - mouse
   - twitch
 cover: /static/games/covers/1206060.jpg

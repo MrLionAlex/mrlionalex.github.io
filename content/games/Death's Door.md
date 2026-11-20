@@ -1,9 +1,9 @@
-﻿---
-created: 2026-11-15 23:23
+---
+created: 2026-08-24T23:23:00
 updated:
 type: Game
-draft: true
-title: "Death's Door"
+draft: false
+title: Death's Door
 aliases:
 category:
   - games
@@ -11,27 +11,31 @@ playtime: 28
 last_played: 2026-08-24
 positive: 19238
 negative: 1486
-release_date: 20 июл. 2021 г.
+release_date: 2021-07-20
 genre: Action, Adventure, Indie, RPG
 tags:
   - souls-like
   - cute
   - 3d_platformer
   - cartoony
-  - dark_fantasy
   - action
   - adventure
   - action-adventure
-  - hack_and_slash
   - isometric
-status:
-rating:
+  - soundtrack
+status: Пройдено
+rating: 7
 platform:
+  - tv
+  - pc
+  - controller
+  - twitch
 cover: /static/games/covers/894020.jpg
 ---
 ## Описание
 Сбор душ умерших от звонка до звонка — серые будни любой вороны, зарабатывающей на жизнь честным трудом. Однако работа может заиграть новыми красками, когда порученная тебе душа похищена, а отчаянный вор скрылся в краях, неподвластных смерти.
 
 ## Отзыв
+>Вперед, маленький герой! Ты сможешь все.
 
-## Ссылки
+Я проходил игру дважды. И как то все сложилось так, что именно в то время, именно с тем настроением, именно там и тогда эта игра мне попадала в самое сердце. Может это моя любимая изометрия с немного мультяшной графикой, возможно прекрасный саундтрек и атмосфера или комфортная сложность и интересные местные боссы - я искренне каждый раз наслаждался игрой. Вот в ней для меня было ровно столько сколько нужно. Оставляю в сердечке.

@@ -24,7 +24,7 @@ tags:
 status: Брошено
 rating: 5
 platform:
-  - pc
+  - fullpc
   - mouse
   - twitch
 cover: /static/games/covers/4348910.jpg

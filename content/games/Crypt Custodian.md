@@ -27,6 +27,7 @@ tags:
 status: Пройдено
 rating: 6
 platform:
+  - tv
   - pc
   - controller
 cover: /static/games/covers/2394650.jpg

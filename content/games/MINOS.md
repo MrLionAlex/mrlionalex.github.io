@@ -23,7 +23,7 @@ tags:
 status: Брошено
 rating: "6"
 platform:
-  - pc
+  - fullpc
   - kb
   - mouse
 cover: /static/games/covers/3181650.jpg

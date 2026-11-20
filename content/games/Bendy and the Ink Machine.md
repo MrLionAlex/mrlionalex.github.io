@@ -25,7 +25,7 @@ tags:
 status: Пройдено
 rating: 4
 platform:
-  - pc
+  - fullpc
   - kb
   - mouse
   - twitch

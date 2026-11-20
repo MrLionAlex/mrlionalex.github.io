@@ -1,26 +1,39 @@
-﻿---
-created: 2026-11-15 23:55
+---
+created: 2026-09-18T23:55:00
 updated:
 type: Game
-draft: true
+draft: false
 title: Forsaken Village
 aliases:
 category:
   - games
-playtime: 1.9
+playtime: 2.2
 last_played: 2026-09-18
 positive: 0
 negative: 0
-release_date: 19 авг. 2026 г.
-genre: 
+release_date: 2026-08-19
+genre:
+  - Action
+  - Adventure
+  - Indie
 tags:
-status:
-rating:
+  - horror
+  - indie
+  - walking_simulator
+  - dark
+status: Пройдено
+rating: 3
 platform:
+  - fullpc
+  - kb
+  - mouse
+  - twitch
+cover: /static/games/covers/4354710.jpg
 ---
 ## Описание
 Блогер-экстремал отправляется в заброшенную деревню, которую, по легенде, люди покинули за один день. Исследуя, он сталкивается с ритуалами и сущностями из славянской мифологии. Но правда оказывается страшнее легенд.
 
 ## Отзыв
+Странная тенденция в играх - создавать прекрасную атмосферу, но портить ее геймплейно.
 
-## Ссылки
+Сюжет ощущается скомканным, а концовка скорее оборванной чем завершённой. По описанию ожидался фолк-хоррор со славянскими сущностями, но по факту они здесь скорее антураж для пары скримеров. Хоррор на один раз.

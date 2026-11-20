@@ -6,13 +6,15 @@ import {
 import { resolveRelative } from "../util/path"
 
 const ICON_KEYS = new Set([
+  "fullpc",
   "pc",
   "kb",
   "mouse",
   "controller",
   "switch",
   "pad",
-  "twitch"
+  "twitch",
+  "tv"
 ])
 
 // Поддерживаем и русские, и английские названия статусов

@@ -26,7 +26,7 @@ tags:
 status: Пройдено
 rating: 6
 platform:
-  - pc
+  - fullpc
   - mouse
 cover: /static/games/covers/40700.jpg
 ---

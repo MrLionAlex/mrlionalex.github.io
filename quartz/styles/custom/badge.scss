@@ -1,0 +1,49 @@
+/* ---------- Иконки ---------- */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.7em;
+    min-width: 1.7em;
+    vertical-align: middle;
+    background-color: var(--secondary);
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.badge-telegram { -webkit-mask-image: url("/static/icons/telegram.svg"); mask-image: url("/static/icons/telegram.svg"); }
+.badge-github { -webkit-mask-image: url("/static/icons/github.svg"); mask-image: url("/static/icons/github.svg"); }
+.badge-fullpc { -webkit-mask-image: url("/static/icons/pc1.svg"); mask-image: url("/static/icons/pc1.svg"); }
+.badge-pc { -webkit-mask-image: url("/static/icons/pc.svg"); mask-image: url("/static/icons/pc.svg");
+    height: 1.4em;
+}
+.badge-kb { -webkit-mask-image: url("/static/icons/kb-black.svg"); mask-image: url("/static/icons/kb-black.svg"); }
+.badge-mouse { -webkit-mask-image: url("/static/icons/mouse.svg"); mask-image: url("/static/icons/mouse.svg");
+    height: 1.4em;
+}
+.badge-controller { -webkit-mask-image: url("/static/icons/controller.svg"); mask-image: url("/static/icons/controller.svg"); }
+.badge-switch { -webkit-mask-image: url("/static/icons/switch.svg"); mask-image: url("/static/icons/switch.svg");
+    background-color: var(--aurora-red);
+}
+.badge-pad { -webkit-mask-image: url("/static/icons/pad.svg"); mask-image: url("/static/icons/pad.svg"); }
+.badge-tv { -webkit-mask-image: url("/static/icons/tv.svg"); mask-image: url("/static/icons/tv.svg"); }
+.badge-twitch { -webkit-mask-image: url("/static/icons/twitch.svg"); mask-image: url("/static/icons/twitch.svg");
+    background-color: var(--aurora-purple);
+    height: 1.4em;
+}
+
+.badge-text {
+    width: auto;
+    padding: 0 .35em;
+    font-size: .7rem;
+    line-height: 1.2;
+    color: var(--darkgray);
+    background: var(--lightgray);
+    border-radius: 4px;
+    -webkit-mask-image: none;
+    mask-image: none;
+}

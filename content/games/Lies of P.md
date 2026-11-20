@@ -25,7 +25,7 @@ tags:
 status: Брошено
 rating: 6
 platform:
-  - pc
+  - fullpc
   - controller
   - twitch
 cover: /static/games/covers/1627720.jpg
