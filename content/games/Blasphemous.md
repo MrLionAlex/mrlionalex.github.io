@@ -2,7 +2,7 @@
 created: 2026-11-15 23:18
 updated:
 type: Game
-draft: true
+draft: false
 title: Blasphemous
 aliases:
 category:
@@ -11,7 +11,7 @@ playtime: 3
 last_played: 2025-03-02
 positive: 50380
 negative: 5433
-release_date: 
+release_date: 2019-09-10
 genre: Action, Adventure, Indie
 tags:
   - metroidvania
@@ -19,18 +19,15 @@ tags:
   - pixel_graphics
   - dark_fantasy
   - gore
-  - 2d
   - violent
   - indie
-  - difficult
-  - action
-status:
-rating:
+status: Брошено
+rating: 5
 platform:
+  - fullpc
+  - controller
+  - twitch
 cover: /static/games/covers/774361.jpg
 ---
 ## Описание
-
-## Отзыв
-
-## Ссылки
+Blasphemous — это жестокий платформенный экшен в кошмарном мире Cvstodia, где в боях придется много и умело рубить и кромсать. Исследуйте мир, улучшайте свои навыки и беспощадно уничтожайте орды врагов, что стоят на пути к вашей цели оборвать цикл вечных мук.
