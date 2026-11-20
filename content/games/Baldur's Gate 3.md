@@ -2,7 +2,7 @@
 created: 2026-07-17 23:27
 updated:
 type: Game
-draft: true
+draft: false
 title: "Baldur's Gate 3"
 aliases:
 category:
