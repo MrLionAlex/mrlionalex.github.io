@@ -17,20 +17,19 @@ tags:
   - gore
   - fps
   - action
-  - great_soundtrack
+  - soundtrack
   - fast-paced
   - violent
   - demons
   - shooter
-  - first-person
-  - singleplayer
-status:
-rating:
+status: Пройдено
+rating: 6
 platform:
+  - fullpc
+  - kb
+  - mouse
+  - twitch
 cover: /static/games/covers/782330.jpg
 ---
 ## Описание
-
-## Отзыв
-
-## Ссылки
+Армии ада вторглись на Землю. Станьте Палачом Рока и убейте демонов во всех измерениях, чтобы спасти человечество. Они боятся только… тебя.
