@@ -1,5 +1,5 @@
 ﻿---
-created: 2026-11-15 23:27
+created: 2026-07-17 23:27
 updated:
 type: Game
 draft: true
@@ -11,27 +11,27 @@ playtime: 567.5
 last_played: 2026-07-17
 positive: 737260
 negative: 24290
-release_date: 3 авг. 2023 г.
+release_date: 2023-08-03
 genre: Adventure, RPG, Strategy
 tags:
   - rpg
   - character_customization
   - choices_matter
   - turn-based_combat
-  - story_rich
+  - story
   - sexual_content
   - crpg
   - fantasy
   - adventure
   - romance
-status:
-rating:
+status: Пройдено
+rating: 9
 platform:
+  - fullpc
+  - kb
+  - mouse
+  - twitch
 cover: /static/games/covers/1086940.jpg
 ---
 ## Описание
 Соберите отряд и вернитесь в Забытые Королевства. Вас ждет история о дружбе и предательстве, выживании и самопожертвовании, о сладком зове абсолютной власти.
-
-## Отзыв
-
-## Ссылки
