@@ -2,7 +2,7 @@
 created: 2026-11-15 23:18
 updated:
 type: Game
-draft: true
+draft: false
 title: DOOM Eternal
 aliases:
 category:
@@ -11,7 +11,7 @@ playtime: 93.6
 last_played: 2024-06-11
 positive: 172041
 negative: 15998
-release_date: 
+release_date: 2020-03-20
 genre: Action
 tags:
   - gore
